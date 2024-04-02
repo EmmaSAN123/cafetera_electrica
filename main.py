@@ -11,7 +11,7 @@ money = MoneyMachine()
 
 
 while is_on:
-    choice = input(f"​What would you like? ({menu.get_items()}) :")
+    choice = input(f"​What would you like drink? ({menu.get_items()}) :")
     if choice == "off":
         is_on = False
     elif choice == "report":
